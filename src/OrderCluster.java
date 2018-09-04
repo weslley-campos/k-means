@@ -2,14 +2,13 @@ import java.util.ArrayList;
 
 public class OrderCluster {
     private Coordinators center;
-    private ArrayList<Order> ordersCluster;
+    private static ArrayList<Order> ordersCluster ;
 
     public OrderCluster() {
-        ordersCluster = new ArrayList<Order>();
+        ordersCluster = new ArrayList<>();
     }
 
     public OrderCluster(Coordinators center, Order order) {
-        ordersCluster = new ArrayList<Order>();
         setCenter(center);
         setOrder(order);
     }

@@ -2,8 +2,6 @@ public class Order {
     private String card_number;
     private Coordinators coordinators;
 
-    public Order(){};
-
     public Order(String card_number, Coordinators coordinators) {
         this.card_number = card_number;
         this.coordinators = coordinators;
